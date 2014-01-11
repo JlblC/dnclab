@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       DnC invert checkboxes
-// @namespace  http://use.i.E.your.homepage/
+// @namespace  https://github.com/JlblC/dnclab
 // @version    0.1
 // @description  enter something useful
 // @updateURL    https://raw2.github.com/JlblC/dnclab/master/UserJS/dnc_invert_checkbox.user.js.js
