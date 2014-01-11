@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name       DnC invert checkboxes
 // @namespace  https://github.com/JlblC/dnclab
-// @version    0.02
+// @version    0.03
 // @description  Позволяет инвертировать флажки
 // @updateURL    https://raw2.github.com/JlblC/dnclab/master/UserJS/dnc_invert_checkbox.user.js.js
 // @downloadURL  https://raw2.github.com/JlblC/dnclab/master/UserJS/dnc_invert_checkbox.user.js.js
 // @match      http://*.the-game.ru/*
 // ==/UserScript==
 
-if (document.querySelectorAll('input[type="checkbox"]'.length)>9) {
+if (document.querySelectorAll('input[type="checkbox"]').length>9) {
 	    var b=document.createElement('input');
 	    b.type='button';
 	    b.onclick=function() {
