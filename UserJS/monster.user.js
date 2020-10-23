@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         monster
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  try to take over the world!
 // @author       You
 // @match        *://the-game.ru/frames/planet_fleets/on/*
 // @match        *://*.the-game.ru/frames/planet_fleets/on/*
-// @downloadURL  https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
+// @updateURL    https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
 // @grant        none
 // ==/UserScript==
 
