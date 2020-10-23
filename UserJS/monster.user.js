@@ -13,9 +13,10 @@
 (function() {
     'use strict';
     function monster(){
+        const a=['🐉','👾','🐙','👽'];
         let m=document.createElement('div');
         m.classList.add('monster');
-        m.innerText='👾';
+        m.innerText=a[~~(a.length*Math.random())];
         document.querySelector('.monster')?.remove();
         document.body.append(m);
     }
