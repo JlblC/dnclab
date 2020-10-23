@@ -6,6 +6,7 @@
 // @author       You
 // @match        *://the-game.ru/frames/planet_fleets/on/*
 // @match        *://*.the-game.ru/frames/planet_fleets/on/*
+// @downloadURL  https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
 // @grant        none
 // ==/UserScript==
 
