@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         monster
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
 // @version      0.1.1
 // @description  try to take over the world!
 // @author       You
