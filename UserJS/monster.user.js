@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         monster
 // @namespace    https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
-// @version      0.1.3
+// @version      0.1.4
 // @description  try to take over the world!
 // @author       You
 // @match        *://the-game.ru/planet/*
@@ -20,10 +20,10 @@
         bd = ht.lastElementChild;
     let i=0;
     for (let z of [pf,td,ht,bd]) {
-        z.style.backgroundColor=['red','blue','green','yelloy'][i++];
-        z.style.width="100%";
+        z.style.backgroundColor=['blue','red','green','yelloy'][i++];  
+        // z.style.width="98%";
     }
-          
+      setInterval(()=>pf.style.zIndex=~~(10-10*Math.random()),500);    
           
                  
     function monster(){
