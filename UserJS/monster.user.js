@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         monster
 // @namespace    https://github.com/JlblC/dnclab/raw/master/UserJS/monster.user.js
-// @version      0.1.2
+// @version      0.1.3
 // @description  try to take over the world!
 // @author       You
 // @match        *://the-game.ru/planet/*
@@ -13,7 +13,6 @@
 (function() {
     'use strict';
     console.log('monster start');
-    $=document.querySelector;
     const 
         pf = document.querySelector('#planet_fleets'),
         td = pf.parentElement,
