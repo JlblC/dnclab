@@ -20,7 +20,7 @@
         bd = ht.lastElementChild;
     let i=0;
     for (let z of [pf,td,ht,bd]) {
-        //z.style.backgroundColor=['red','blue','green','yelloy'][i++];
+        z.style.backgroundColor=['red','blue','green','yelloy'][i++];
         z.style.width="100%";
     }
           
